@@ -24,7 +24,6 @@ public class SimplifiedRationalGenerator extends Generator<SimplifiedRational> {
         super(SimplifiedRational.class);
     }
 
-    @Override
     public SimplifiedRational generate(SourceOfRandomness random, GenerationStatus status) {
         int n = random.nextInt();
         int d;

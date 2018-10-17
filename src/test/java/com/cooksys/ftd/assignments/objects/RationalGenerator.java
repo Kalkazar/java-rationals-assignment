@@ -10,7 +10,6 @@ public class RationalGenerator extends Generator<Rational> {
         super(Rational.class);
     }
 
-    @Override
     public Rational generate(SourceOfRandomness random, GenerationStatus status) {
         int n = random.nextInt();
         ;
